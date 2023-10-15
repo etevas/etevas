@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="style_app_ing.css">
+    <script src="scriptGallery.js"></script>
+
+</head>
+<body style="overflow-x: hidden">
+    <img class="center" id="gradiente" src="images/galeria/galeria_fundo.png" style="height: auto; position: absolute; width: 101%; margin-top: -1%; margin-left: -1%;"/>
+    <img  class="center"  src="images/galeria/galeria_texto_ing.png" style="max-width: 100%; height: auto; position: absolute;"/>             
+    <div class="banner">
+      <a href="#" onclick="toggleHelenaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 0%; margin-top: 63%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleFridaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 17%; margin-top: 63%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleWangariInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 34%; margin-top: 63%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleAgnesInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 50.5%; margin-top: 63%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleDavisInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 67.5%; margin-top: 63%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleCarolinaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 84.5%; margin-top: 63%; width: 15%; height: auto;";/></a>
+      <a href="#" onclick="toggleRuthInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 0%; margin-top: 87%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleMalalaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 17%; margin-top: 87%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleMickaleneInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 34%; margin-top: 87%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleMaryInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 50.5%; margin-top: 87%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleRigobertaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 67.5%; margin-top: 87%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleSimoneInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 84.5%; margin-top: 87%; width: 15%; height: auto;";/></a>
+      <a href="#" onclick="toggleSusanInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 0%; margin-top: 111%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleHarrietInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 17%; margin-top: 111%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleSophiaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 34%; margin-top: 111%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleMarshaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 50.5%; margin-top: 111%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleRosaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 67.5%; margin-top: 111%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleMariasInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 84.5%; margin-top: 111%; width: 15%; height: auto;";/></a>
+      <a href="#" onclick="toggleAdaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 0%; margin-top: 135%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleNinaInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 17%; margin-top: 135%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleHamiltonInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 34%; margin-top: 135%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleMarieInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 50.5%; margin-top: 135%; width: 15.5%; height: auto;";/></a>
+      <a href="#" onclick="toggleKrugerInicio();"><img class="center" src="images/botao_Falso.png" style="position: absolute; margin-left: 67.5%; margin-top: 135%; width: 15.5%; height: auto;";/></a>
+    </div>    
+    <div id="helena">
+      <video id="videohelena" src="video/helena_almeida.mp4" style="width:auto; height:80%" controls></video>
+      <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+      <img src="images/seta_dir.png" class="next" onclick="toggleFridaInicio();">
+      <img src="images/seta_esq.png" class="prev" onclick="toggleKrugerInicio();">
+
+  </div>
+  <div id="frida">
+    <video id="videofrida" src="video/frida.mp4" style="width:auto; height:80%" controls></video>
+    <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+    <img src="images/seta_dir.png" class="next" onclick="toggleWangariInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleHelenaInicio();">
+  </div>
+  <div id="wangari">
+    <video id="videowangari" src="video/wangari_maathai.mp4" style="width:auto; height:80%" controls></video>
+    <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+    <img src="images/seta_dir.png" class="next" onclick="toggleAgnesInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleFridaInicio();">
+  </div>
+  <div id="agnes">
+    <video id="videoagnes" src="video/agnes.mp4" style="width:auto; height:80%" controls></video>
+    <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+    <img src="images/seta_dir.png" class="next" onclick="toggleDavisInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleWangariInicio();">
+  </div>
+  <div id="davis">
+    <video id="videodavis" src="video/angela_davis.mp4" style="width:auto; height:80%" controls></video>
+    <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+    <img src="images/seta_dir.png" class="next" onclick="toggleCarolinaInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleAgnesInicio();">
+  </div>
+  <div id="carolina">
+    <video id="videocarolina" src="video/carolina.mp4" style="width:auto; height:80%" controls></video>
+    <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+    <img src="images/seta_dir.png" class="next" onclick="toggleRuthInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleDavisInicio();">
+</div>
+<div id="ruth">
+  <video id="videoruth" src="video/ruth.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleMalalaInicio();">
+  <img src="images/seta_esq.png" class="prev" onclick="toggleCarolinaInicio();">
+</div>
+<div id="malala">
+  <video id="videomalala" src="video/malala.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleMickaleneInicio();">
+  <img src="images/seta_esq.png" class="prev" onclick="toggleRuthInicio();">
+</div>
+<div id="mickalene">
+  <video id="videomickalene" src="video/mickalene.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleMaryInicio();">
+  <img src="images/seta_esq.png" class="prev" onclick="toggleMalalaInicio();">
+</div>
+<div id="mary">
+  <video id="videomary" src="video/mary.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleRigobertaInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleMickaleneInicio();">
+</div>
+<div id="rigoberta">
+  <video id="videorigoberta" src="video/rigoberta.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleSimoneInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleMaryInicio();">
+</div>
+<div id="simone">
+  <video id="videosimone" src="video/simone.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleSusanInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleRigobertaInicio();">
+</div>
+<div id="susan">
+  <video id="videosusan" src="video/susan_b_anthony.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleHarrietInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleSimoneInicio();">
+</div>
+<div id="harriet">
+  <video id="videoharriet" src="video/harriet.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleSophiaInicio();">
+  <img src="images/seta_esq.png" class="prev" onclick="toggleSusanInicio();">
+</div>
+<div id="sophia">
+  <video id="videosophia" src="video/sophia.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleMarshaInicio();">
+  <img src="images/seta_esq.png" class="prev" onclick="toggleHarrietInicio();">
+</div>
+<div id="marsha">
+  <video id="videomarsha" src="video/marshaesylvia.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleRosaInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleSophiaInicio();">
+</div>
+<div id="rosa">
+  <video id="videorosa" src="video/rosa_parks.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleMariasInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleMarshaInicio();">
+</div>
+<div id="marias">
+  <video id="videomarias" src="video/tresmarias.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleAdaInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleRosaInicio();">
+</div>
+     <div id="ada">
+         <video id="videoada" src="video/ada.mp4" style="width:auto; height:80%" controls></video>
+         <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+         <img src="images/seta_dir.png" class="next" onclick="toggleNinaInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleMariasInicio();">
+     </div>
+     <div id="nina">
+      <video id="videonina" src="video/nina.mp4" style="width:auto; height:80%" controls></video>
+      <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+      <img src="images/seta_dir.png" class="next" onclick="toggleHamiltonInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleAdaInicio();">
+  </div>
+  <div id="hamilton">
+    <video id="videohamilton" src="video/hamilton.mp4" style="width:auto; height:80%" controls></video>
+    <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+    <img src="images/seta_dir.png" class="next" onclick="toggleMarieInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleNinaInicio();">
+</div>
+<div id="marie">
+  <video id="videomarie" src="video/marie.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleKrugerInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleHamiltonInicio();">
+</div>
+<div id="kruger">
+  <video id="videokruger" src="video/barbara_kruger.mp4" style="width:auto; height:80%" controls></video>
+  <img src="images/fechar.png" class="close" onclick="toggleFecha();">
+  <img src="images/seta_dir.png" class="next" onclick="toggleHelenaInicio();">
+    <img src="images/seta_esq.png" class="prev" onclick="toggleMarieInicio();">
+</div>
+     
+    
+    <div class="links">
+      <a href="home_ing.html"><img class="center" id="botao_home_top" src="images/botao_Falso.png"/></a>
+      <a href="home_ing.html"><img class="center" id="botao_home" src="images/botao_Falso.png"/></a>
+      <a href="women.html"><img class="center" id="botao_women" src="images/botao_Falso.png"/></a>
+      <a href="contacts.html"><img class="center" id="botao_contacts" src="images/botao_Falso.png"/></a>
+      <a href="gallery_pt.html"><img class="center" id="botao_trans_gallery" src="images/botao_Falso.png"/></a>
+      <a href="app_ing.html"><img class="center" id="botao_app" src="images/botao_Falso.png"/></a>
+      <a href="#top"><img class="center" id="botao_top_gallery" src="images/seta.png"/></a>
+  </div>
+  
+</body>
+</html>
