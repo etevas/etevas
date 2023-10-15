@@ -1,0 +1,123 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #video{
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+  
+  }
+  #video iframe{
+    margin-top:330%;
+    height:60%;
+    width:80%;
+    position:absolute;
+    margin-right: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #botao_ing{
+    position: absolute;
+    margin-top: -51%;
+    margin-left: 89%;
+    width: 7vw;
+    height: 3vw;
+    background: transparent;
+    color: transparent;
+    border-color:transparent;
+  
+  }
+  #botao_ing:hover {
+    border-bottom-color: #292929;
+  border-style:groove;
+  }
+  #botao_top{
+    position: absolute;
+    margin-top: 345%;
+    margin-left: 90%;
+    width: 4vw;
+    height: 7vw;
+    background: transparent;
+    color: transparent;
+  }
+  #botao_about{
+    position: absolute;
+    margin-top: -43.5%;
+    margin-left: 3%;
+    width: 4vw;
+    height: 4vw;
+    background: transparent;
+    color: transparent;
+    border-color:transparent;
+  
+  }
+  #botao_about:hover {
+    border-right-color: #292929;
+  border-style:groove;
+  }
+  
+  #botao_women{
+    position: absolute;
+    margin-top: -37%;
+    margin-left: 3%;
+    width: 4vw;
+    height: 6.5vw;
+    background: transparent;
+    color: transparent;
+    border-color:transparent;
+  
+  }
+  
+  #botao_women:hover {
+    border-right-color: #292929;
+  border-style:groove;
+  }
+   
+  #botao_app{
+    position: absolute;
+    margin-top: -28%;
+    margin-left: 3%;
+    width: 4vw;
+    height: 5.5vw;
+    background: transparent;
+    color: transparent;
+    border-color:transparent;
+  
+  }
+  #botao_app:hover {
+    border-right-color: #292929;
+  border-style:groove;
+  }
+  #botao_contacts{
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 3%;
+    width: 4vw;
+    height: 7vw;
+    background: transparent;
+    color: transparent;
+    border-color:transparent;
+  
+  }
+  #botao_contacts:hover {
+    border-right-color: #292929;
+  border-style:groove;
+  }
+  
+  #botao_gallery{
+    position: absolute;
+    margin-top: -19.8%;
+    margin-left: 3%;
+    width: 4vw;
+    height: 5vw;
+    background: transparent;
+    color: transparent;
+    border-color:transparent;
+  
+  }
+  #botao_gallery:hover {
+    border-right-color: #292929;
+  border-style:groove;
+  }

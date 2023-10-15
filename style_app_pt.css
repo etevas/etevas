@@ -1,0 +1,119 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#botao_ing{
+  position: absolute;
+  margin-top: 4.5%;
+  margin-left: 89%;
+  width: 7vw;
+  height: 3vw;
+  background: transparent;
+  color: transparent;
+  border-color:transparent;
+
+}
+#download{
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 27%;
+  width: 15vw;
+  height: 4vw;
+  background: transparent;
+  color: transparent;
+  border-color:transparent;
+
+}
+#botao_ing:hover {
+  border-bottom-color: #292929;
+border-style:groove;
+}
+#botao_top{
+  position: absolute;
+  margin-top: 150%;
+  margin-left: 90%;
+  width: 4vw;
+  height: 7vw;
+  background: transparent;
+  color: transparent;
+}
+#botao_about{
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 3%;
+  width: 4vw;
+  height: 4vw;
+  background: transparent;
+  color: transparent;
+  border-color:transparent;
+
+}
+#botao_about:hover {
+  border-right-color: #292929;
+border-style:groove;
+}
+
+#botao_women{
+  position: absolute;
+  margin-top: 18.3%;
+  margin-left: 3%;
+  width: 4vw;
+  height: 6.5vw;
+  background: transparent;
+  color: transparent;
+  border-color:transparent;
+
+}
+
+#botao_women:hover {
+  border-right-color: #292929;
+border-style:groove;
+}
+ 
+#botao_app{
+  position: absolute;
+  margin-top: 27.5%;
+  margin-left: 3%;
+  width: 4vw;
+  height: 5.5vw;
+  background: transparent;
+  color: transparent;
+  border-color:transparent;
+
+}
+#botao_app:hover {
+  border-right-color: #292929;
+border-style:groove;
+}
+#botao_contacts{
+  position: absolute;
+  margin-top: 43.5%;
+  margin-left: 3%;
+  width: 4vw;
+  height: 7vw;
+  background: transparent;
+  color: transparent;
+  border-color:transparent;
+
+}
+#botao_contacts:hover {
+  border-right-color: #292929;
+border-style:groove;
+}
+
+#botao_gallery{
+  position: absolute;
+  margin-top: 35.7%;
+  margin-left: 3%;
+  width: 4vw;
+  height: 5vw;
+  background: transparent;
+  color: transparent;
+  border-color:transparent;
+
+}
+#botao_gallery:hover {
+  border-right-color: #292929;
+border-style:groove;
+}

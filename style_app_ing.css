@@ -1,0 +1,57 @@
+  #botao_app_pt{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 80%;
+    width: 5vw;
+    height: 3vw;
+    background: transparent;
+    color: transparent;
+  }
+#botao_about{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 21%;
+    width: 7vw;
+    height: 4vw;
+    background: transparent;
+    color: transparent;
+  }
+  
+  #botao_women{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 35%;
+    width: 7vw;
+    height: 4vw;
+    background: transparent;
+    color: transparent;
+  }
+  
+  #botao_app{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 50%;
+    width: 12vw;
+    height: 4vw;
+    background: transparent;
+    color: transparent;
+  }
+  #botao_contacts{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 70%;
+    width: 10vw;
+    height: 4vw;
+    background: transparent;
+    color: transparent;
+  }
+
+  #botao_download{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 25%;
+    width: 20vw;
+    height: 5vw;
+    background: transparent;
+    color: transparent;
+  }
